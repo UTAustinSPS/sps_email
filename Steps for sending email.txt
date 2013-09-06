@@ -1,0 +1,6 @@
+1. Create xml file (see: xml/example.xml)
+2. Run python script on xml file
+3. Put html file on server
+4. Upload the file to GitHub
+5. Send the email from your Gmail account. 
+(Note: Another email service can be used by changing the server in the Python file.)
