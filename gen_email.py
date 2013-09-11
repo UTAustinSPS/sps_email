@@ -168,7 +168,7 @@ def premail_email(email_html):
 
 
 def send_email(html_email):
-  recipient = raw_input('Recipient (only one): ')
+  recipient = raw_input('Recipient(s) (separated by "[,;]\s+"): ')
   senders_email = raw_input('Sender\'s Gmail Address: ')
   password = getpass.getpass()
 
@@ -185,7 +185,7 @@ def send_email(html_email):
       server = smtplib.SMTP(SMTP_SERVER)
       server.starttls()
       server.login(senders_email, password)
-      server.sendmail(senders_email, recipient, msg.as_string())
+      server.sendmail(senders_email, re.split('[,;]\s+',recipient), msg.as_string())
     finally:
       server.quit()
 
