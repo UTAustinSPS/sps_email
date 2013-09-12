@@ -9,6 +9,7 @@
 <weeklyEmail date="September 7, 2013">
 	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
 	<itemList>
+		<!-- WEEKLY MEETINGS -->
 		<item name="Physics Careers" category="Weekly Meetings" type="urgent" deadline="September 12th">
 			<date>September 12th, 6pm</date>
 			<location>CPE 2.208</location>
@@ -22,6 +23,8 @@
 		<item name="SPS Intro Presentation" category="Weekly Meetings" deadline="Never">
 			<info>Miss the first SPS meeting and want to know more about us? You can download a PDF of the presentation &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/SPS_Intro.pdf"&gt;here&lt;/a&gt;, and if you really want to know more, take a look at our 2012-2013 Chapter Report we submitted to the National SPS organization to try to win an "Outstanding Chapter" award (no announcements yet on that front!), which can be found &lt;a href="http://www.ph.utexas.edu/~sps/resources/UofTexasatAustin-2013SPSChapterReport.pdf"&gt;here&lt;/a&gt;.</info>
 		</item>
+
+		<!-- SPS ACTIVITIES -->
 		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
 			<date>Sundays, 6pm-???</date>
 			<location>RLM 7.116</location>
@@ -35,6 +38,8 @@
 			we will be managing that through the new HornsLink system (see below for the link). Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for us to verify your service hours. That way,
 			we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
 		</item>
+
+		<!-- CAREERS -->
 		<item name="Career Design Center" category="Careers" type="new" deadline="Never">
 			<info>The College of Natural Sciences' Career Design Center is hosting several events this semester for career prep and other interesting events. &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/CDC%20%Fall%20Events.pdf"&gt;This&lt;/a&gt; is a handy list of some of those events, which includes the CNS Career Expo on the 16th (see below).</info>
 		</item>
@@ -54,21 +59,8 @@
 			Career Design Center's website &lt;a href="http://cns.utexas.edu/career-design-center/career-events"&gt;here&lt;/a&gt;. If you have questions,
 			you can contact them (info on website), or ask a fellow physicist!</info>
 		</item>
-		<item name="Sense Corp Hiring" category="Careers" type="urgent" deadline="September 11th">
-			<date>September 11, 3pm-5pm</date>
-			<location>Rec Sports Center</location>
-			<info>Dr. Franks from the Career Design Center passed on some information about a mid-sized consulting firm that is interested in hiring students with a strong background in mathematics after being extremely impressed with two math
-			students last year. They will be at the McCombs (business school) Undergraduate Career Expo on the 11th. Attire requirements are
-			&lt;a href="http://www.mccombs.utexas.edu/~/media/Files/MSB/BBA/CS/08%20-%20F13%20-%20Instructional%20Guide%20-%20Business%20Attire.ashx"&gt;here&lt;/a&gt; and list of all employers attending is
-			&lt;a href="https://msb-utexas-csm.symplicity.com/events/students.php"&gt;here&lt;/a&gt;. Finally, here is a brief summary of Sense Corp:
-			&lt;p&gt;&lt;i&gt;Sense Corp is a fast-growing team of exceptionally talented consultants. Our people are the best and brightest talent from leading firms and universities. The founder and many employees
-			of Sense Corp are UT graduates, and we value UT's campus to provide quality consultants for our company. Our firm is committed to making a difference by working together with our clients on
-			multi-level business challenges. Our strength comes from the people we hire; and we, therefore strongly support each individual's professional development. You will quickly learn to become a
-			leader as you gain increasing responsibilities to help our clients in a broad spectrum of industries.&lt;/i&gt;&lt;p&gt;Information about job postings for Sense Corp can be found on our website
-			&lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/Sense%20Corp%20Job%20Descriptions.pdf"&gt;here&lt;/a&gt;, and you can direct any and all questions to
-			&lt;br&gt;
-			&lt;a href="mailto:ruth.franks@austin.utexas.edu"&gt;ruth.franks@austin.utexas.edu&lt;/a&gt;.</info>
-		</item>
+
+		<!-- CONTACT US -->
 		<item name="Comments or Questions" category="Contact Us" deadline="Never">
 			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
 		</item>
