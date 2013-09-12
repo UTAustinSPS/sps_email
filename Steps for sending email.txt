@@ -1,6 +1,4 @@
 1. Create xml file (see: xml/example.xml)
-2. Run python script on xml file
-3. Put html file on server
-4. Upload the file to GitHub
-5. Send the email from your Gmail account. 
+2. Run python script on xml file `python gen_email.py xml/FILENAME.xml`
+3. Use the prompts to review and send email.
 (Note: Another email service can be used by changing the server in the Python file.)
