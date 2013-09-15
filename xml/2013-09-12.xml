@@ -14,7 +14,7 @@
 			<date>Immediately</date>
 			<info>There is an LA position open for PHY 302K (General Physics for non-physics majors). The instructor of the course is Professor Raymond Orbach. Students interested should contact Amir Shamoradi (CC'd on this
 			email) for more
-			information then talk to Mary Lindholm (Assistant Directory for Physics Administration) &lt;a href="mailto:lindholm@austin.utexas.edu"&gt;lindholm@austin.utexas.edu&lt;/a&gt; for official assignment.
+			information then talk to Mary Lindholm (Assistant Directory for Physics Administration) &lt;a href="mailto:lindholm@austin.utexas.edu"&gt;lindholm@austin.utexas.edu&lt;/a&gt; for official assignment.</info>
 		</item>
 		<!-- WEEKLY MEETINGS -->
 		<item name="Physics Careers" category="Weekly Meetings" type="urgent" deadline="September 12th">
@@ -35,7 +35,24 @@
 		<item name="SPS Potluck!" category="SPS Activities" type="new" deadline="September 20th">
 			<date>September 20, 6pm?</date>
 			<info>Next Friday we'll have our first SPS potluck of the year, hosted at Evan and Tharon's apartment.
-		We'll be sending out a Google Doc for people to sign up to bring food. Please come and oin us for games, food, and fun (there's even a pool)! Hope to see y'all there!</info>
+		We'll be sending out a Google Doc for people to sign up to bring food. Please come and join us for games, food, and fun (there's even a pool)! Hope to see y'all there!</info>
+		</item>
+		<item name="Physics Open House" category="SPS Activities" type="new" deadline="November 4th">
+			<date>November 4th</date>
+			<location>RLM</location>
+			<info>Remember, remember the FOURTH of November! The Physics Department's Open House will be held
+			on November 4th this year, and SPS will be helping out all along the way! We'll have volunteering
+			information soon. &lt;b&gt;If you have done research&lt;/b&gt;, then you're in luck! There will
+			be an undergrad research poster competition during the Open House (like last year). Our next email
+			will have a sign-up form for an intent to submit a poster. We'll need to have a poster count
+			during the first week of October. Questions? Email us (link below).</info>
+		</item>
+		<item name="CNS Family Day" category="SPS Activities" type="new" deadline="October 19th">
+			<date>October 19th, 9am-12pm</date>
+			<info>The College of Natural Sciences' Family Day is on the horizon. SPS always goes to the
+			sessions to make ourselves known to parents and to help the Physics Circus with their presentation
+			(sometimes leading it ourselves). It's a really fun day with parents just as mystified as the little
+			brothers and sisters of CNS students. We'll have the volunteer sign-up for the next email as well.</info>
 		</item>
 		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" type="new" deadline="Never">
 			<info>Do you play LoL (League of Legends)? Want to play with some of your fellow physicists? SPS is hoping to host a LAN party / tournament of sorts in the near future. If you're interested,
