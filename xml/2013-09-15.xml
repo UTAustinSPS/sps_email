@@ -11,8 +11,8 @@
 	<itemList>
 		<!-- SPECIAL ANNOUNCEMENTS -->
 		<!-- item name="PHY 302K LA Position" category="Special Announcement" type="urgent" deadline="September 13th" -->
-		<!-- WEEKLY MEETINGS --
-		<item name="Dr. Willy Fischler" category="Weekly Meetings" deadline="September 19th">
+		<!-- WEEKLY MEETINGS -->
+		<item name="Dr. Willy Fischler" category="Weekly Meetings" type="urgent" deadline="September 19th">
 			<date>September 19, 6pm</date>
 			<location>CPE 2.208</location>
 			<info>Join SPS as we welcome UT Physics professor Dr. Willy Fischler! He will be talking about research, life, and more! His reseach interests include: "quantum field theory, supersymmetry, string theory, quantum cosmology, and statistical mechanics."</info>
@@ -33,13 +33,13 @@
 			&lt;a href="https://docs.google.com/forms/d/1GNN-e1Ep0HJa3LEYPoNlsS72UVJeqMOQGT5n_T3H1v8/viewform"&gt;here&lt;/a&gt; to be a mentor. Email
 			Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrision@utexas.edu&lt;/a&gt; for more information.</info>
 		</item>
-		<item name="SPS Potluck!" category="SPS Activities" type="new" deadline="September 20th">
+		<item name="SPS Potluck!" category="SPS Activities" type="urgent" deadline="September 20th">
 			<date>September 20, 6pm?</date>
-			<info>Next Friday we'll have our first SPS potluck of the year, hosted at Evan and Tharon's apartment. Please sign up to bring food &lt;a href="https://docs.google.com/spreadsheet/ccc?key=0AiDFKF73inhGdHNYX3BPSGhCUmp1b241Uk9GOGYtaUE&usp=sharing"&gt;here&lt;/a&gt;. If you're on campus,
+			<info>Next Friday we'll have our first SPS potluck of the year, hosted at Evan and Tharon's apartment. Please sign up to bring food &lt;a href="https://docs.google.com/spreadsheet/ccc?key=0AiDFKF73inhGdHNYX3BPSGhCUmp1b241Uk9GOGYtaUE"&gt;here&lt;/a&gt;. If you're on campus,
 feel free to bring "easier" food like chips/soda if you don't have easy access to a kitchen. The apartment complex (info in the Google Spreadsheet above) has a pool, so feel free to bring swim gear! Questions should go to Evan Ott at &lt;a href="mailto:evan.ott@utexas.edu"&gt;evan.ott
-@utexas.edu&lt;/a&gt;</</info>
+@utexas.edu&lt;/a&gt;</info>
 		</item>
-		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" type="new" deadline="Never">
+		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" deadline="Never">
 			<info>Do you play LoL (League of Legends)? Want to play with some of your fellow physicists? SPS is hoping to host a LAN party / tournament of sorts in the near future. If you're interested, you can sign up &lt;a href="https://docs.google.com/forms/d/1fhS3RH8sUHS96u5cjr7xPhYmHUQ2KB_VIOdMwXBWeu0/viewform"&gt;here&lt;/a&gt; or
 email SPS webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrision@utexas.edu&lt;/a&gt;</info>
 		</item>
@@ -55,6 +55,9 @@ email SPS webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu
 			<info>Interested in joining Sigma Pi Sigma, the physics honors society? The requirements are listed on &lt;a href="http://www.ph.utexas.edu/~sps/pages/EPE.html"&gt;our website&lt;/a&gt;. For the service hour component,
 			we will be managing that through the new HornsLink system (see below for the link). Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for us to verify your service hours. That way,
 			we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
+		</item>
+		<item name="Sigma Pi Sigma Election Results" category="SPS Activities" type="new" deadline="Never">
+		<info>Congratulations to John Loftin who will serve as Sigma Pi Sigma's representative! We'll have more about Sigma Pi Sigma as the society develops.</info>
 		</item>
 
 		<!-- CAREERS -->
@@ -77,7 +80,7 @@ email SPS webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu
 			Career Design Center's website &lt;a href="http://cns.utexas.edu/career-design-center/career-events"&gt;here&lt;/a&gt;. If you have questions,
 			you can contact them (info on website), or ask a fellow physicist!</info>
 		</item>
-		<item name="Job Openings" category="Careers" type="new" deadline="Never">
+		<item name="Job Openings" category="Careers" deadline="Never">
 			<info>The SPS officers get several emails each week about positions in various companies / organizations, and we want to pass them along but don't want to further increase the length of these messages. Therefore,
 			we'll be updating our website in the coming week or two to link to information then reference it in these emails. At the moment, we have some info about a summer internship in the Petroleum and Geosystems Engineering department, positions for this semester at the non-profit Undergraduate Computational Finance, and consulting organization iRunway. If you'd like the info we have on any of these, please email us. Otherwise, we'll be posting things as they come in.</info>
 		</item>
