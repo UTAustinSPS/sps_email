@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="September 19, 2013">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<!-- item name="PHY 302K LA Position" category="Special Announcement" type="urgent" deadline="September 13th" -->
+		<!-- WEEKLY MEETINGS -->
+		<item name="Dr. Willy Fischler" category="Weekly Meetings" type="urgent" deadline="September 19th">
+			<date>September 19, 6pm</date>
+			<location>CPE 2.208</location>
+			<info>Join SPS as we welcome UT Physics professor Dr. Willy Fischler! He will be talking about research, life, and more! His reseach interests include: "quantum field theory, supersymmetry, string theory, quantum cosmology, and statistical mechanics."</info>
+		</item>
+		<item name="T-Shirt Contest Voting" category="Weekly Meetings" type="new" deadline="September 26th">
+			<date>September 26, 6pm</date>
+			<location>CPE 2.208</location>
+			<info>We'll listen to an undergraduate research presentation, then spend time reviewing t-shirt designs! Which designs? Why, those YOU submit! Have an idea for a physics shirt (or even better, the artwork too)? Email the idea to us at
+&lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt;. SPS Treasurer, Danaan Thome is coordinating the contest, and will conduct voting by way of pre-orders using top-three picks used for determining which shirts should be printed.</info>
+		</item> 
+
+		<!-- SPS ACTIVITIES -->
+		<item name="SPS/ASA Potluck!" category="SPS Activities" type="updated" deadline="September 20th">
+			<date>September 20, 6pm</date>
+			<location>712 West 21st Street, #102</location>
+			<info>Just sending y'all a reminder that this Friday is the Potluck! It
+			is going to be at John Loftin's Apartment (NOT Evan and Tharon's) so
+			that it's closer to campus. Things will get rolling around 6pm.&lt;p&gt;
+			If you get lost, feel free to call either Courtney Campion (SPS
+			Outreach Coordinator) (210-551-1991) or John Loftin (Sigma Pi Sigma
+			representative) (936-828-8589). Don't forget to bring something!
+&lt;a href="https://docs.google.com/spreadsheet/ccc?key=0AiDFKF73inhGdHNYX3BPSGhCUmp1b241Uk9GOGYtaUE"&gt;Sign Up Here&lt;/a&gt;.</info>
+		</item>
+		<item name="Open House Poster Contest!" category="SPS Activities" deadline="October 4th" type="new">
+			<date>ASAP</date>
+			<info>November 4th is the 2013 Annual Physics Department Open House,
+which means several things for you! First, &lt;b&gt;if you have done research&lt;/b&gt;, you
+can submit a poster to the Open House Poster Contest! There will be prizes for the top posters
+as judged by a panel. Think you might be up to the challenge? Fill out &lt;a href="https://docs.google.com/forms/d/1pRUSjwsYMcNuBfOqHCB4Wn4DLRk4a6MglC_CIugaPNQ/viewform"&gt;
+this form&lt;/a&gt; to let us know! We will be providing tips and tricks on how to make an effective poster, and will be happy to answer any questions you have. We want a full list of posters in early October, so that they will be ready to print in late October (details later). Questions? Email us! (link below).&lt;p&gt;Not doing research yet? That's okay too! You can volunteer for Sigma Pi Sigma hours by serving as a guide on the 4th or helping put up fliers! More info to come.</info>
+		</item>
+		<item name="Student-Led Seminars" category="SPS Activities" deadline="Never" type="new">
+			<info>SPS is continuing with student-led courses to help you
+gain helpful skills for research/industry, with a variety being planned for this semester. Interested in getting your hands dirty in the machine shop? Or maybe picking up some programming? Let us know at this &lt;a href="https://docs.google.com/forms/d/127MulfByazGQaAlrw8xFB4ZIkpBr7Cd_t8dsZAgHXhs/viewform"&gt;quick survey&lt;/a&gt;! We'll follow up with more information once classes are scheduled. Questions? Email SPS Vice-President,
+Gabriel Cossio at &lt;a href="mailto:gcossio14@utexas.edu"&gt;gcossio14@utexas.edu&lt;/a&gt;.</info>
+		</item>
+		<item name="Soccer Payment Reminder" category="SPS Activities" deadline="ASAP" type="new">
+			<date>ASAP</date>
+			<info>IM Soccer registration is over, but if you signed up, we need you to pay your part of the registration fee. If this pertains to you, contact SPS Vice-President, Gabriel Cossio at &lt;a href="mailto:gcossio14@utexas.edu"&gt;gcossio14@utexas.edu&lt;/a&gt; or
+SPS Outreach Coordinator, Courtney Campion at &lt;a href="mailto:ccampion@utexas.edu"&gt;ccampion@utexas.edu&lt;/a&gt;</info>
+		</item>
+		<item name="Mentoring Groups" category="SPS Activities" deadline="Never">
+			<info>Interested in being in one of the mentoring groups but didn't sign up at one of the weekly meetings?
+			You can sign up &lt;a href="https://docs.google.com/forms/d/1QKbh6-eG48vqghmArxMmzSZAg1eUuy38IUIVaCRx1TE/viewform"&gt;here&lt;/a&gt; to be a mentee and 
+			&lt;a href="https://docs.google.com/forms/d/1GNN-e1Ep0HJa3LEYPoNlsS72UVJeqMOQGT5n_T3H1v8/viewform"&gt;here&lt;/a&gt; to be a mentor. Email
+			SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt; for more information.</info>
+		</item>
+
+		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" deadline="Never">
+			<info>Do you play LoL (League of Legends)? Want to play with some of your fellow physicists? SPS is hoping to host a LAN party / tournament of sorts in the near future. If you're interested, you can sign up &lt;a href="https://docs.google.com/forms/d/1fhS3RH8sUHS96u5cjr7xPhYmHUQ2KB_VIOdMwXBWeu0/viewform"&gt;here&lt;/a&gt; or
+email SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt;</info>
+		</item>
+		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For those who haven't been, every week we invite any and all physics majors and people in physics or math classes to come by to work on homework.
+			With many upper-division students in attendance (and some LAs for classes), when you run into problems, you won't be stuck for long. We also provide cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt;
+			energized. Some come by to help or be helped! If you're interested in tutoring, making known that you're available during the night (name on a chalkboard) is a great way to earn service hours for
+			Sigma Pi Sigma.</info>
+		</item>
+	
+		<!-- Sigma Pi Sigma -->
+		<item name="Service Hours" category="Sigma Pi Sigma" deadline="Never">
+			<info>Interested in joining Sigma Pi Sigma, the physics honors society? The requirements are listed on &lt;a href="http://www.ph.utexas.edu/~sps/pages/EPE.html"&gt;our website&lt;/a&gt;. For the service hour component,
+			we will be managing that through the new HornsLink system (see below for the link). Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for us to verify your service hours. That way,
+			we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
+		</item>
+		<item name="Election Results" category="Sigma Pi Sigma" deadline="Never">
+		<info>Congratulations to John Loftin who will serve as Sigma Pi Sigma's representative! We'll have more about Sigma Pi Sigma as the society develops.</info>
+		</item>
+
+		<!-- CAREERS -->
+		<item name="Career Design Center" category="Careers" deadline="Never">
+			<info>The College of Natural Sciences' Career Design Center is hosting several events this semester for career prep and other interesting events. &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/CDC%20Fall%20Events.pdf"&gt;This&lt;/a&gt; is a handy list of some of those events, which includes the CNS Career Expo on the 16th (see below).</info>
+		</item>
+		<item name="Job Openings" category="Careers" deadline="Never">
+			<info>The SPS officers get several emails each week about positions in various companies / organizations, and we want to pass them along but don't want to further increase the length of these messages. Therefore,
+			we'll be updating our website in the coming week or two to link to information then reference it in these emails. At the moment, we have some info about a summer internship in the Petroleum and Geosystems Engineering department, positions for this semester at the non-profit Undergraduate Computational Finance, and consulting organization iRunway. If you'd like the info we have on any of these, please email us. Otherwise, we'll be posting things as they come in.</info>
+		</item>
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
