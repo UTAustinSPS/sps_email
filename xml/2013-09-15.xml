@@ -10,6 +10,10 @@
 	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
 	<itemList>
 		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="Emails Corrected" category="Special Announcement" type="urgent" deadline="Sepptember 15th">
+			<info>Hi all,&lt;br&gt;Your SPS President (and sender of these emails) is not yet used to some of the peculiarities of generating these email templates so some of the
+			hyperlinks were incorrect in the previous email. They are now fixed.&lt;br&gt;Evan Ott</info>
+		</item>
 		<!-- item name="PHY 302K LA Position" category="Special Announcement" type="urgent" deadline="September 13th" -->
 		<!-- WEEKLY MEETINGS -->
 		<item name="Dr. Willy Fischler" category="Weekly Meetings" type="urgent" deadline="September 19th">
@@ -20,28 +24,27 @@
 		<item name="SPS Intro Presentation" category="Weekly Meetings" deadline="Never">
 			<info>Miss the first SPS meeting and want to know more about us? You can download a PDF of the presentation &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/SPS_Intro.pdf"&gt;here&lt;/a&gt;, and if you really want to know more, take a look at our 2012-2013 Chapter Report we submitted to the National SPS organization to try to win an "Outstanding Chapter" award (no announcements yet on that front!), which can be found &lt;a href="http://www.ph.utexas.edu/~sps/resources/UofTexasatAustin-2013SPSChapterReport.pdf"&gt;here&lt;/a&gt;.</info>
 		</item>
-		<item name="Physics Careers" category="Weekly Meetings" deadline="Never">
-			<info>Check out &lt;a href="www.ph.utexas.edu/~sps/resources/2013/09/Careers.pptx"&gt;this presentation&lt;/a&gt; from Dr. Franks in the Career
+		<item name="Physics Careers" category="Weekly Meetings" type="updated" deadline="Never">
+			<info>Check out &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/Careers.pptx"&gt;this presentation&lt;/a&gt; from Dr. Franks in the Career
 		Design Center for some quick tips about the CNS Career Expo TOMORROW (Monday)! Plus
 		some general career-related resources for you in the college.</info>
 		</item>
 
 		<!-- SPS ACTIVITIES -->
-		<item name="Mentoring Groups" category="SPS Activities" type="new" deadline="Never">
+		<item name="Mentoring Groups" category="SPS Activities" type="updated" deadline="Never">
 			<info>Interested in being in one of the mentoring groups but didn't sign up at one of the weekly meetings?
 			You can sign up &lt;a href="https://docs.google.com/forms/d/1QKbh6-eG48vqghmArxMmzSZAg1eUuy38IUIVaCRx1TE/viewform"&gt;here&lt;/a&gt; to be a mentee and 
 			&lt;a href="https://docs.google.com/forms/d/1GNN-e1Ep0HJa3LEYPoNlsS72UVJeqMOQGT5n_T3H1v8/viewform"&gt;here&lt;/a&gt; to be a mentor. Email
-			Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrision@utexas.edu&lt;/a&gt; for more information.</info>
+			Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt; for more information.</info>
 		</item>
-		<item name="SPS Potluck!" category="SPS Activities" type="urgent" deadline="September 20th">
+		<item name="SPS Potluck!" category="SPS Activities" type="updated" deadline="September 20th">
 			<date>September 20, 6pm?</date>
 			<info>Next Friday we'll have our first SPS potluck of the year, hosted at Evan and Tharon's apartment. Please sign up to bring food &lt;a href="https://docs.google.com/spreadsheet/ccc?key=0AiDFKF73inhGdHNYX3BPSGhCUmp1b241Uk9GOGYtaUE"&gt;here&lt;/a&gt;. If you're on campus,
-feel free to bring "easier" food like chips/soda if you don't have easy access to a kitchen. The apartment complex (info in the Google Spreadsheet above) has a pool, so feel free to bring swim gear! Questions should go to Evan Ott at &lt;a href="mailto:evan.ott@utexas.edu"&gt;evan.ott
-@utexas.edu&lt;/a&gt;</info>
+feel free to bring "easier" food like chips/soda if you don't have easy access to a kitchen. The apartment complex (info in the Google Spreadsheet above) has a pool, so feel free to bring swim gear! Questions should go to Evan Ott at &lt;a href="mailto:evan.ott@utexas.edu"&gt;evan.ott@utexas.edu&lt;/a&gt;</info>
 		</item>
-		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" deadline="Never">
+		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" type="updated" deadline="Never">
 			<info>Do you play LoL (League of Legends)? Want to play with some of your fellow physicists? SPS is hoping to host a LAN party / tournament of sorts in the near future. If you're interested, you can sign up &lt;a href="https://docs.google.com/forms/d/1fhS3RH8sUHS96u5cjr7xPhYmHUQ2KB_VIOdMwXBWeu0/viewform"&gt;here&lt;/a&gt; or
-email SPS webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrision@utexas.edu&lt;/a&gt;</info>
+email SPS webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt;</info>
 		</item>
 		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
 			<date>Sundays, 6pm-???</date>
@@ -61,8 +64,8 @@ email SPS webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu
 		</item>
 
 		<!-- CAREERS -->
-		<item name="Career Design Center" category="Careers" deadline="Never">
-			<info>The College of Natural Sciences' Career Design Center is hosting several events this semester for career prep and other interesting events. &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/CDC%20%Fall%20Events.pdf"&gt;This&lt;/a&gt; is a handy list of some of those events, which includes the CNS Career Expo on the 16th (see below).</info>
+		<item name="Career Design Center" category="Careers" type="updated" deadline="Never">
+			<info>The College of Natural Sciences' Career Design Center is hosting several events this semester for career prep and other interesting events. &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/CDC%20Fall%20Events.pdf"&gt;This&lt;/a&gt; is a handy list of some of those events, which includes the CNS Career Expo on the 16th (see below).</info>
 		</item>
 		<item name="CNS Career Expo" category="Careers" type="urgent" deadline="September 16th">
 			<date>September 16th, 1pm-6pm</date>

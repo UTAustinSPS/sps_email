@@ -101,6 +101,8 @@ def generate_email_from_data(file_name, email_data):
             item_class = 'urgentItem'
           elif item['type'] == 'new':
             item_class = 'newItem'
+	  elif item['type'] =='updated':
+            item_class = 'updatedItem'
         else:
           item_class = 'item'
 
