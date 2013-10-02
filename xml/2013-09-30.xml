@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="October 1, 2013">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="M.E.L. Oakes Undergraduate Physics Colloquium" category="Special Announcement" type="urgent" deadline="October 2nd">
+			<date>October 2nd, 4:15pm</date>
+			<location>RLM 4.102</location>
+			<info>Each year, in honor of Distinguished Teaching Professor Emeritus Dr. M.E.L. Oakes, the Physics Department hosts the M.E.L. Oakes Undergraduate Lecture Series, with a colloquium &lt;i&gt;specifically designed for undergraduates&lt;/i&gt;. This year, the speaker is Dr. George Crabtree from Argonne National Laboratory, who will be talking about &lt;b&gt;"From Quanta to the Continuum: Opportunities for Mesoscale Science"&lt;/b&gt;. It should be a very interesting talk and SPS strongly encourages you to attend (but come early - the room will fill quickly!). &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/Crabtree-2013-MEL%20Oakes%20Lecturer.pdf"&gt;Click here&lt;/a&gt; for more information.</info>
+		</item>
+		<item name="M.E.L. Oakes Undergraduate Lecture Series" category="Special Announcement" type="urgent" deadline="October 2nd">
+			<date>October 2nd, 7pm</date>
+			<location>SAC 2.410, 2.412</location>
+			<info>Dr. George Crabtree (see above) will also be giving a separate talk on &lt;b&gt;"Energy: the Next 50 Years"&lt;/b&gt; as part of the M.E.L. Oakes Undergraduate Lecture Series. This is a talk geared toward everyone, so bring your friends! For more info, &lt;a href="http://www.ph.utexas.edu/~sps/resources/2013/09/Crabtree-2013-MEL%20Oakes%20Lecturer.pdf"&gt;click here&lt;/a&gt;.</info>
+		</item>
+		<!-- WEEKLY MEETINGS -->
+		<item name="T-Shirt Contest Voting" category="Weekly Meetings" type="urgent" deadline="October 3rd">
+			<date>October 3, 6pm</date>
+			<location>CPE 2.208</location>
+			<info>We'll (hopefully) listen to an undergraduate research presentation, then spend time reviewing t-shirt designs! Which designs? Why, those YOU submit! Have an idea for a physics shirt (or even better, the artwork too)? Email the idea to us at
+&lt;a href="mailto:SPSTshirts@gmail.com"&gt;SPSTshirts@gmail.com&lt;/a&gt; by 11:59:59pm Wednesday and win a free shirt if your design is in the top 3. For more information, see &lt;a target="_blank" href="http://www.ph.utexas.edu/~sps/pages/tshirts.html"&gt;our website&lt;/a&gt;</info>
+		</item>
+		<item name="Registration Meeting" category="Weekly Meetings" type="new" deadline="October 10th">
+			<date>October 10, 6pm</date>
+			<location>CPE 2.208</location>
+			<info>It's that time of year again! We'll be talking about courses to take, helping you figure out your degree plan and giving you the straight scoop on classes. Have classes (physics or otherwise) that you enjoyed (or maybe struggled with)? Let us know at the anonymous form &lt;a href="https://docs.google.com/forms/d/1KdPzayfKUyiivpR6Boz2x8xEnYQarZRRbX5kxHjIHfQ/viewform" target="_blank"&gt;here&lt;/a&gt;!</info>
+		</item> 
+
+		<!-- SPS ACTIVITIES -->
+		<item name="Open House Poster Contest!" category="SPS Activities" deadline="October 4th" type="updated">
+			<date>ASAP</date>
+			<info>OLD INFO -- November 4th is the 2013 Annual Physics Department Open House,
+which means several things for you! First, &lt;b&gt;if you have done research&lt;/b&gt;, you
+can submit a poster to the Open House Poster Contest! There will be prizes for the top posters
+as judged by a panel. Think you might be up to the challenge? Fill out &lt;a target="_blank" href="https://docs.google.com/forms/d/1pRUSjwsYMcNuBfOqHCB4Wn4DLRk4a6MglC_CIugaPNQ/viewform"&gt;
+this form&lt;/a&gt; to let us know! We will be providing tips and tricks on how to make an effective poster, and will be happy to answer any questions you have. We want a full list of posters in early October, so that they will be ready to print in late October (details later). Questions? Email us! (link below).&lt;p&gt;Not doing research yet? That's okay too! You can volunteer for Sigma Pi Sigma hours by serving as a guide on the 4th or helping put up fliers! More info to come.</info>
+		</item>
+		<item name="Student-Led Seminars" category="SPS Activities" deadline="Never" type="updated">
+			<info>This was the first week of SPS student-led classes. Arduino Scouts can handle
+			approximately 10 more people. If you want to learn the basics of how to build a
+robot, this class is for you. Email Jules for more info at 
+&lt;a href="mailto:julespeak@gmail.com"&gt;julespeak@gmail.com&lt;/a&gt;
+(meets Mondays from 5-7pm). The machine shop classes will be getting down and dirty this following week
+so if you want to see if you can squeeze your way into the roster then email Gabe at 
+&lt;a href="mailto:gcossio14@utexas.edu"&gt;gcossio14@utexas.edu&lt;/a&gt; for more information
+(meets 8-10am M and W, 8-9:30am TTh). Lastly, C++ is also looking for more people to learn the basics of
+scientific programming. Email &lt;a href="douglasdavis@utexas.edu"&gt;douglasdavis@utexas.edu&lt;/a&gt; for more info (meets Mondays from 6-7pm).</info>
+		</item>
+		<item name="Soccer Payment Reminder" category="SPS Activities" deadline="ASAP">
+			<date>ASAP</date>
+			<info>IM Soccer registration is over, but if you signed up, we need you to pay your part of the registration fee. If this pertains to you, contact SPS Vice-President, Gabriel Cossio at &lt;a href="mailto:gcossio14@utexas.edu"&gt;gcossio14@utexas.edu&lt;/a&gt; or
+SPS Outreach Coordinator, Courtney Campion at &lt;a href="mailto:ccampion@utexas.edu"&gt;ccampion@utexas.edu&lt;/a&gt;</info>
+		</item>
+		<item name="Mentoring Groups" category="SPS Activities" deadline="Never" type="updated">
+			<info>If you are interested in being mentored please sign up and get your friends to sign up too!
+			You can sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1QKbh6-eG48vqghmArxMmzSZAg1eUuy38IUIVaCRx1TE/viewform"&gt;here&lt;/a&gt; to be a mentee and 
+			&lt;a target="_blank" href="https://docs.google.com/forms/d/1GNN-e1Ep0HJa3LEYPoNlsS72UVJeqMOQGT5n_T3H1v8/viewform"&gt;here&lt;/a&gt; to be a mentor. Email
+			SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt; for more information.</info>
+		</item>
+
+		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" deadline="Never" type="updated">
+			<info>Do you play LoL (League of Legends)? Want to play with some of your fellow physicists? SPS is hoping to host a LAN party / tournament of sorts in the near future. If you're interested, you can sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1fhS3RH8sUHS96u5cjr7xPhYmHUQ2KB_VIOdMwXBWeu0/viewform"&gt;here&lt;/a&gt; and view results (other player's names, summoner names, etc.) &lt;a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AkIgZqZWzKKYdFJ3R05JYjgwTE9fdzRBWEROV0VVcVEor"&gt;here&lt;/a&gt;
+email SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt;</info>
+		</item>
+		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For those who haven't been, every week we invite any and all physics majors and people in physics or math classes to come by to work on homework.
+			With many upper-division students in attendance (and some LAs for classes), when you run into problems, you won't be stuck for long. We also provide cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt;
+			energized. Some come by to help or be helped! If you're interested in tutoring, making known that you're available during the night (name on a chalkboard) is a great way to earn service hours for
+			Sigma Pi Sigma.</info>
+		</item>
+	
+		<!-- Sigma Pi Sigma -->
+		<item name="Service Hours" category="Sigma Pi Sigma" deadline="Never">
+			<info>Interested in joining Sigma Pi Sigma, the physics honors society? The requirements are listed on &lt;a target="_blank" href="http://www.ph.utexas.edu/~sps/pages/EPE.html"&gt;our website&lt;/a&gt;. For the service hour component,
+			we will be managing that through the new HornsLink system (see below for the link). Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for us to verify your service hours. That way,
+			we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
+		</item>
+
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
