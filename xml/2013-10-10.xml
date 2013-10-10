@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="October 10, 2013">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<!-- WEEKLY MEETINGS -->
+		<item name="Registration Meeting" category="Weekly Meetings" type="urgent" deadline="October 10th">
+			<date>October 10, 6pm</date>
+			<location>CPE 2.208</location>
+			<info>It's that time of year again! We'll be talking about courses to take, helping you figure out your degree plan and giving you the straight scoop on classes. Have classes (physics or otherwise) that you enjoyed (or maybe struggled with)? Let us know at the anonymous form &lt;a href="https://docs.google.com/forms/d/1KdPzayfKUyiivpR6Boz2x8xEnYQarZRRbX5kxHjIHfQ/viewform" target="_blank"&gt;here&lt;/a&gt;!</info>
+		</item> 
+<!--CNS Activities -->
+		<item name="Natural Sciences Week" category="CNS Activities" deadline="October 18th" type="new">
+			<info>&lt;b&gt;ATTENTION ALL CNS STUDENTS!&lt;/b&gt; 
+Get excited, Natural Sciences Week is October 14th-18th this year. They've got a great lineup of events. Please come out to everything and anything that interests you! There will be FREE food, t-shirts, and much more at EVERY EVENT. Info is available on a poster near you
+(in RLM at least) and &lt;a target="_blank" href="http://naturalsciencescouncil.blogspot.com/p/31.html?m=1"&gt;online here&lt;/a&gt;.</info>
+		</item>
+		<item name="Jean Holloway Award for Teaching Excellence" category="CNS Activities" deadline="November 1st" type="new">
+			<date>November 1st</date>
+			<info>Have a professor who goes above and beyond in the College of
+Natural Sciences or College of Liberal Arts? Nominate him or her for the Texas Exes' Jean
+Holloway Award for Teaching Excellence! UT students nominate professors using the &lt;a href="https://texasexes.org/form/holloway.asp" target="_blank"&gt;online form&lt;/a&gt;, then a selection
+committee of your fellow students selects the winner based on nomination forms and class
+visits. The award is very prestigious (since it comes from students) and can be
+a turning point for a newer professor trying new things or a welcomed reward to
+a professor who has his or her own working formula.</info>
+		</item>
+		<item name="College Tuition and Budget Advisory Committee" category="CNS Activities" deadline="October 16th" type="new">
+			<date>October 16th, 5pm</date>
+			<info>The CTBAC is a bi-annual student group that meets to gather student input and advise the college on priorities for student programs, services, and teaching.  Students benefit from being involved in helping shape the future of their college.  This year the College of Natural Sciences has crafted its Strategic Plan, a comprehensive view of the college's priorities for the years ahead.  Central to the Strategic Plan are elements that strengthen undergraduate and graduate teaching and education.  With this year's CTBAC, the College requests feedback and ideas for successful implementation of the strategic plan. Apply &lt;a target="_blank" href="https://utexas.qualtrics.com/SE/?SID=SV_cZW1OFDevtQg0OF"&gt;here&lt;/a&gt;.</info>
+		</item>
+		<!-- SPS ACTIVITIES -->
+		<item name="T-shirt Color Voting" category="SPS Activities" deadline="Never" type="new">
+			<info>Our winning shirts this year are the classic "Let There Be Light" design, "Drop Watermelons, Not Physics", and "Are Physicists Normal?". We'd like input on
+the color of the shirts for the latter two along with a possible variant of the Schrodiner Equation shirt. We have a quick form up &lt;a target="_blank" href="https://docs.google.com/a/utexas.edu/forms/d/1xPo7uHnZnzy-LOVZ7N5i49t2p4w1nNksTSSP2gLq9S8/viewform"&gt;here&lt;/a&gt;.
+The colors referenced are on Aztec's site (link on the form).</info>
+		</item>
+		<item name="Open House Poster Contest!" category="SPS Activities" deadline="October 20th" type="updated">
+			<date>ASAP</date>
+			<info>November 4th is the 2013 Annual Physics Department Open House,
+which means several things for you! First, &lt;b&gt;if you have done research&lt;/b&gt;, you
+can submit a poster to the Open House Poster Contest! There will be prizes for the top posters
+as judged by a panel. Think you might be up to the challenge? Fill out &lt;a target="_blank" href="https://docs.google.com/forms/d/1pRUSjwsYMcNuBfOqHCB4Wn4DLRk4a6MglC_CIugaPNQ/viewform"&gt;
+this form&lt;/a&gt; to let us know! Check out links on the form for more details. We want a full list of posters in early October, so that they will be ready to print in late October. Questions? Email us! (link below).</info>
+		</item>
+		<item name="Open House Volunteering!" category="SPS Activities" deadline="Never">
+			<info>November 4th is the 2013 Annual Physics Department Open House and SPS is looking for a ton of people to help make this event a success. If you are not submitting a poster, but would still like to help out, you can sign up to be a volunteer. Volunteers will be greeting visitors and answering questions, selling t-shirts, and directing visitors to labs, elevators, and posters. You will also get Sigma Pi Sigma service hours for this event, so please sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1IlWCZfs1vZAX7mgyylCwzTzsCo-63kglyyqGwFeI4IU/viewform"&gt;here&lt;/a&gt;!  In the coming weeks we will also need people to put up fliers to promote the event, so keep that in mind. If you have any questions, feel free to email us!</info>
+		</item>
+		<item name="Student-Led Seminars" category="SPS Activities" deadline="Never">
+			<info>This was the second week of SPS student-led classes. Arduino Scouts can handle
+			approximately 10 more people. If you want to learn the basics of how to build a
+robot, this class is for you. Email Jules for more info at 
+&lt;a href="mailto:julespeak@gmail.com"&gt;julespeak@gmail.com&lt;/a&gt;
+(meets Mondays from 5-7pm). The machine shop classes will be getting down and dirty this following week
+so if you want to see if you can squeeze your way into the roster then email Gabe at 
+&lt;a href="mailto:gcossio14@utexas.edu"&gt;gcossio14@utexas.edu&lt;/a&gt; for more information
+(meets 8-10am M and W, 8-9:30am TTh). Lastly, C++ is also looking for more people to learn the basics of
+scientific programming. Email &lt;a href="douglasdavis@utexas.edu"&gt;douglasdavis@utexas.edu&lt;/a&gt; for more info (meets Mondays from 6-7pm).</info>
+		</item>
+		<item name="Soccer Payment Reminder" category="SPS Activities" deadline="ASAP">
+			<date>ASAP</date>
+			<info>IM Soccer registration is over, but if you signed up, we need you to pay your part of the registration fee. If this pertains to you, contact SPS Vice-President, Gabriel Cossio at &lt;a href="mailto:gcossio14@utexas.edu"&gt;gcossio14@utexas.edu&lt;/a&gt; or
+SPS Outreach Coordinator, Courtney Campion at &lt;a href="mailto:ccampion@utexas.edu"&gt;ccampion@utexas.edu&lt;/a&gt;</info>
+		</item>
+		<item name="Mentoring Groups" category="SPS Activities" deadline="Never">
+			<info>If you are interested in being mentored please sign up and get your friends to sign up too!
+			You can sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1QKbh6-eG48vqghmArxMmzSZAg1eUuy38IUIVaCRx1TE/viewform"&gt;here&lt;/a&gt; to be a mentee and 
+			&lt;a target="_blank" href="https://docs.google.com/forms/d/1GNN-e1Ep0HJa3LEYPoNlsS72UVJeqMOQGT5n_T3H1v8/viewform"&gt;here&lt;/a&gt; to be a mentor. Email
+			SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt; for more information.</info>
+		</item>
+
+		<item name="League of Legends Tournament/LAN Party" category="SPS Activities" deadline="Never">
+			<info>Do you play LoL (League of Legends)? Want to play with some of your fellow physicists? SPS is hoping to host a LAN party / tournament of sorts in the near future. If you're interested, you can sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1fhS3RH8sUHS96u5cjr7xPhYmHUQ2KB_VIOdMwXBWeu0/viewform"&gt;here&lt;/a&gt; and view results (other player's names, summoner names, etc.) &lt;a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AkIgZqZWzKKYdFJ3R05JYjgwTE9fdzRBWEROV0VVcVEor"&gt;here&lt;/a&gt;
+email SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt;</info>
+		</item>
+		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For those who haven't been, every week we invite any and all physics majors and people in physics or math classes to come by to work on homework. With many upper-division students in attendance (and some LAs for classes), when you run into problems, you won't be stuck for long. We also provide cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt; energized. Some come by to help or be helped! If you're interested in tutoring, making known that you're available during the night (name on a chalkboard) is a great way to earn service hours for Sigma Pi Sigma.</info>
+		</item>
+	
+		<!-- Sigma Pi Sigma -->
+		<item name="Service Hours" category="Sigma Pi Sigma" deadline="Never">
+			<info>Interested in joining Sigma Pi Sigma, the physics honors society? The requirements are listed on &lt;a target="_blank" href="http://www.ph.utexas.edu/~sps/pages/EPE.html"&gt;our website&lt;/a&gt;. For the service hour component, we will be managing that through the new HornsLink system (see below for the link). Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for us to verify your service hours. That way,
+we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
+		</item>
+		
+		
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
