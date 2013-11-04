@@ -1,0 +1,19 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"python","gen_email.py","$file"
+			],
+			"name": "Send Email",
+			"working_dir": "$project_path"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "/home/evanott/GitProjects/sps_email"
+		}
+	]
+}
