@@ -6,7 +6,7 @@
 	 deadline attribute is for reference only.
 	 date and location children of the item are optional, but info is required.
 	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
-<weeklyEmail date="October 28, 2013">
+<weeklyEmail date="November 4, 2013">
 	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
 	<itemList>
 		<!-- SPECIAL ANNOUNCEMENTS -->
@@ -21,7 +21,7 @@
 				Roof and some watermelons. See you there!!!</info>
 		</item>
 		<item name="T-shirt Ordering" category="Special Announcements" deadline="November 4" type="urgent">
-			<info>November 4 is the last day for pre-orders!!! For the first time, 
+			<info>TODAY (November 4) is the last day for pre-orders!!! For the first time, 
 			we are be conducting t-shirt sales online! Check out our
 			website at &lt;a
 			href="http://www.ph.utexas.edu/~sps/pages/tshirts.html" target="_blank"&gt;
