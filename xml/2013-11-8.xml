@@ -14,20 +14,20 @@
 			<info>
 				Congratulations to the Open House Poster Contest Winners! They are:
 				&lt;ol&gt;
-				&lt;li&gt;Nikita Klimovich (Using Light to Measure Heat Flow in Nanostructures)&lt;/li&gt;
-				&lt;li&gt;Alex Wilhelm (Rotational Energy Loss in Laser Filaments due to
-				Molecular Rotation)&lt;/li&gt;
-				&lt;li&gt;Jason Koeller (Particle Dark Matter Theory: Flavor and Higgs Portal)
-				&amp; Luke Pharr (Irreversible buckling of PET sheets
-				under isolated thermal loading)&lt;/li&gt;
+				&lt;li&gt;Nikita Klimovich (&lt;i&gt;Using Light to Measure Heat Flow in Nanostructures&lt;/i&gt;)&lt;/li&gt;
+				&lt;li&gt;Alex Wilhelm (&lt;i&gt;Rotational Energy Loss in Laser Filaments due to
+				Molecular Rotation)&lt;/i&gt;&lt;/li&gt;
+				&lt;li&gt;Jason Koeller (&lt;i&gt;Particle Dark Matter Theory: Flavor and Higgs Portal&lt;/i&gt;)
+				&amp; Luke Pharr (&lt;i&gt;Irreversible Buckling of PET Sheets
+				Under Isolated Thermal Loading&lt;/i&gt;)&lt;/li&gt;
 				&lt;/ol&gt;
 			</info>
 		</item>
 		<item name="SPS Movie Night!" category="Special Announcements" deadline="November 8th" type="urgent">
-			<location>RLM </location>
+			<location>RLM 6.104</location>
 			<date>TODAY (11/8), 6pm</date>
-			<info>Come hang out with fellow physicists and enjoy a movie! Bring suggestions [or a DVD
-				if you're hanging on to pre-Netflix technology]! See you there!</info>
+			<info>Come hang out with fellow physicists and enjoy a movie and snacks! Bring suggestions [or a DVD
+				if you're hanging on to pre-Netflix technology]! See you there! #SomeoneBringArmageddon</info>
 		</item>
 		<item name="Texas Physics Polo Ordering" category="Special Announcements" deadline="Never" type="updated">
 			<info>
@@ -61,7 +61,7 @@
 			href="http://imgur.com/a/MNVAC"&gt;here&lt;/a&gt;!</info>
 		</item>
 		<item name="Student-Led Spring PHY 110C Courses" category="SPS Activities" deadline="Never" type="updated">
-			<info>(58911 filled up, but we're changing classrooms to accommodate students on the waitlist! I'm so excited! =D) It's official! The Department of Physics is offering two student-led
+			<info>(58911 filled up, but we're changing classrooms to accommodate students on the waitlist! So just hang tight! I'm so excited! =D) It's official! The Department of Physics is offering two student-led
 				courses next semester as PHY 110C! Unique ID 58911 (Professor Sitz) is with SPS President, Evan Ott, and LaTeX master
 				Will Beason who will be leading an "Introduction to Data Analysis for Physics" course, geared as
 				preparation for PHY 355L (Modern Lab / Junior Lab) with &lt;a target="_blank" href="http://latex-project.org/intro.html"&gt;LaTeX&lt;/a&gt; and 
