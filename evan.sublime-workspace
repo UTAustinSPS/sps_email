@@ -8,15 +8,16 @@
 	"buffers":
 	[
 		{
-			"file": "xml/2013-11-4.xml",
+			"file": "/home/evanott/Dropbox/littleg.txt",
 			"settings":
 			{
-				"buffer_size": 6766,
-				"line_ending": "Unix"
+				"buffer_size": 221,
+				"line_ending": "Unix",
+				"name": "time: 3.44"
 			}
 		}
 	],
-	"build_system": "Data Analysis",
+	"build_system": "Send Email",
 	"command_palette":
 	{
 		"height": 304.0,
@@ -56,6 +57,9 @@
 	},
 	"file_history":
 	[
+		"/home/evanott/GitProjects/runestone/evan.sublime-project",
+		"/home/evanott/GitProjects/sps_email/evan.sublime-project",
+		"/home/evanott/GitProjects/sps_email/xml/2013-11-4.xml",
 		"/home/evanott/GitProjects/runestone/data_analysis/_sources/index.rst",
 		"/home/evanott/GitProjects/runestone/data_analysis/_sources/Mathematica/lists.rst",
 		"/home/evanott/GitProjects/runestone/data_analysis/_sources/Mathematica/structure.rst",
@@ -63,7 +67,6 @@
 		"/home/evanott/GitProjects/runestone/data_analysis/_sources/Mathematica/mathematica.rst",
 		"/home/evanott/.config/sublime-text-2/Packages/User/adlorem.sublime-snippet",
 		"/usr/share/applications/sublime.desktop",
-		"/home/evanott/GitProjects/runestone/evan.sublime-project",
 		"/home/evanott/.config/sublime-text-2/Packages/User/Data_Analysis.sublime-build",
 		"/home/evanott/GitProjects/runestone/evan.sublime-workspace",
 		"/home/evanott/.config/sublime-text-2/Packages/User/data_analysis.sublime-build",
@@ -111,27 +114,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "xml/2013-11-4.xml",
+					"file": "/home/evanott/Dropbox/littleg.txt",
 					"settings":
 					{
-						"buffer_size": 6766,
+						"buffer_size": 221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								942,
-								942
+								221,
+								221
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "time: 3.44",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

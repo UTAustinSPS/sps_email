@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent", "updated" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="November 8, 2013">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="Open House Poster Contest Winners" category="Special Announcements" deadline="Never" type="new">
+			<info>
+				Congratulations to the Open House Poster Contest Winners! They are:
+				&lt;ol&gt;
+				&lt;li&gt;Nikita Klimovich (Using Light to Measure Heat Flow in Nanostructures)&lt;/li&gt;
+				&lt;li&gt;Alex Wilhelm&lt;/li&gt;
+				&lt;li&gt;Jason Koeller &amp; Luke Pharr (Irreversible buckling of PET sheets
+				under isolated thermal loading)&lt;/li&gt;
+				&lt;/ol&gt;
+			</info>
+		</item>
+		<item name="Texas Physics Polo Ordering" category="Special Announcements" deadline="Never" type="updated">
+			<info>
+				Pre-orders start now for Texas Physics Polos (white embroidered logo on 
+				dark navy polo), brought to you by Sigma Pi Sigma. Preorders will be $25,
+				and any extras will be sold for $30 when they arrive (add $1 for online
+				orders and $4 for shipping). You can buy them in person from John Loftin
+				or another SPS officer (go to RLM 5.222 - one of us is likely to be there),
+				or online &lt;a target="_blank" href="http://www.ph.utexas.edu/~sps/pages/tshirts.html#polo"&gt;here&lt;/a&gt;!
+			</info>
+		</item>
+		<item name="Sigma Pi Sigma Applications Available" category="Special Announcements" deadline="November 27th" type="new">
+			<date>November 27</date>
+			<info>Applications are now available for Sigma Pi Sigma! You'll need to meet
+				the course/GPA requirements as well as the service hour quota (see
+				info below that has been in emails for weeks now) if you're interested.
+				Applications are available on the 5th floor of RLM near Lisa Gentry's office,
+				and online &lt;a target="_blank" href="http://www.ph.utexas.edu/~sps/resources/2013/11/SigmaPiSigma-Application_F13.pdf"&gt;here&lt;/a&gt;.
+				For questions, please email Sigma Pi Sigma representative John Loftin at
+				&lt;a target="_blank" href="mailto:johnloftin99@gmail.com"&gt;johnloftin99@gmail.com&lt;/a&gt;.</info>
+		</item>
+		<!-- WEEKLY MEETINGS -->
+		<item name="Bylaws/Election" category="Weekly Meetings" type="new" deadline="November 7th">
+			<location>CPE 2.208</location>
+			<date>November 14, 6pm</date>
+			<info>Get out the vote! For this week, we'll first vote on the proposed changes
+				to the bylaws (viewable &lt;a target="_blank"
+				href="https://docs.google.com/document/d/19UvKvJ1fv_cNE-_49bP5hh5txOYM6iJytGfJ77bXT1M/edit?usp=sharing"&gt;here&lt;/a&gt;),
+				then have elections for Vice President, Treasurer and Freshman Representative.
+				&lt;br&gt;
+				If you know someone who you think would be a good addition to the SPS
+				Officers (even if that person is yourself), please nominate him or her
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/1EC2aWVhEmphUtb35vJJdtufVA_HIm17iiSvaOYETm0A/viewform"&gt;here&lt;/a&gt;!
+				</info>
+		</item>
+		<!--CNS Activities -->
+		<!-- SPS ACTIVITIES -->
+		<item name="Physics Open House Pics!" category="SPS Activities" type="new">
+			<info>Open House was a huge success! Using watermelons, we calculated little
+			g to be 10.1+/-1.3 m/s^2! Check out pictures &lt;a target="_blank"
+			href="http://imgur.com/a/MNVAC"&gt;here&lt;/a&gt;!</info>
+		</item>
+		<item name="Student-Led Spring PHY 110C Courses" category="SPS Activities" deadline="Never">
+			<info>It's official! The Department of Physics is offering two student-led
+				courses next semester as PHY 110C! Unique ID 58911 (Professor Sitz) is with SPS President, Evan Ott, and LaTeX master
+				Will Beason who will be leading an "Introduction to Data Analysis for Physics" course, geared as
+				preparation for PHY 355L (Modern Lab / Junior Lab) with &lt;a target="_blank" href="http://latex-project.org/intro.html"&gt;LaTeX&lt;/a&gt; and 
+				&lt;a href="http://www.wolfram.com/mathematica/" target="_blank"&gt;Mathematica&lt;/a&gt;. Unique ID 58913 (Professor Marder) is going to be led by Crystal Riley, on
+				an "Introduction to Programming for Physics" using &lt;a target="_blank" href="http://www.python.org/"&gt;Python&lt;/a&gt;, geared to introduce you to concepts in programming that you can
+				then apply in research or industry. Neither course presumes prior programming experience.
+				For scheduling info, consult the Course Schedule, and for other questions, email us at &lt;a href="mailto:spsofficers@gmail.com" target="_blank"&gt;spsofficers@gmail.com&lt;/a&gt;.</info>
+		</item>
+		<item name="Mentoring Group" category="SPS Activities" deadline="Never" type="updated">
+			<location>RLM 5.222</location>
+			<date>Saturdays, 11am</date>
+			<info>Mentees! Please bring a scientific article about something you are 
+				interested in and be able to explain the article for this week's meeting.
+				If you are interested in being mentored please sign up and get your
+				friends to sign up too!
+			You can sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1QKbh6-eG48vqghmArxMmzSZAg1eUuy38IUIVaCRx1TE/viewform"&gt;here&lt;/a&gt; to be a mentee. Email
+			SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt; for more information.</info>
+		</item>
+
+		<item name="League of Legends Tournament!" category="SPS Activities" type="updated" deadline="Never">
+			<date>November 11, 2-5pm</date>
+			<location>RLM 7.114 (probably)</location>
+			<info>Structure: brief introduction for the lay including strategy and
+				general game goals, Three games: best of three, Awards: Winning Team,
+				Crowd Favorite, Game Changing Play (all done with paper and bags to
+				collect votes). Snacks: there will be some, optional consumption but $2
+				chip-in if you do</info>
+		</item>
+		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For those who haven't been, every week we invite any and all physics majors and people in physics or math classes to come by to work on homework. With many upper-division students in attendance (and some LAs for classes), when you run into problems, you won't be stuck for long. We also provide cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt; energized. Some come by to help or be helped! If you're interested in tutoring, making known that you're available during the night (name on a chalkboard) is a great way to earn service hours for Sigma Pi Sigma.</info>
+		</item>
+	
+		<!-- Sigma Pi Sigma -->
+		<item name="Service Hours" category="Sigma Pi Sigma" deadline="Never">
+			<info>Interested in joining Sigma Pi Sigma, the physics honors society?
+The requirements are listed on &lt;a target="_blank"
+href="http://www.ph.utexas.edu/~sps/pages/EPE.html"&gt;our website&lt;/a&gt;. For the service
+hour component, we will be managing that through the new HornsLink system (see below for the link).
+Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for
+us to verify your service hours. That way,
+we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink
+can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
+		</item>
+		
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
