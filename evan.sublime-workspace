@@ -11,8 +11,8 @@
 			"file": "xml/2013-11-8.xml",
 			"settings":
 			{
-				"buffer_size": 8413,
-				"line_ending": "Unix"
+				"buffer_size": 9145,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -56,6 +56,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Evan/Desktop/send_email.py",
 		"/home/evanott/Dropbox/littleg.txt",
 		"/home/evanott/GitProjects/runestone/evan.sublime-project",
 		"/home/evanott/GitProjects/sps_email/evan.sublime-project",
@@ -117,15 +118,15 @@
 					"file": "xml/2013-11-8.xml",
 					"settings":
 					{
-						"buffer_size": 8413,
+						"buffer_size": 9145,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1334,
-								1334
+								2444,
+								2444
 							]
 						],
 						"settings":
@@ -134,7 +135,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -175,7 +176,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 112.0
+		"height": 224.0
 	},
 	"replace":
 	{
