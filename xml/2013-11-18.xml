@@ -10,7 +10,20 @@
 	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
 	<itemList>
 		<!-- SPECIAL ANNOUNCEMENTS -->
-		<item name="Open House Poster Contest Winners!" category="Special Announcements" deadline="Never" type="new">
+		<item name="Your New SPS Officers!" category="Special Announcements" deadline="Never" type="new">
+			<info>After the special election last week, your new SPS Officers are:
+			&lt;ul&gt;
+				&lt;li&gt;Evan Ott, President&lt;/li&gt;
+				&lt;li&gt;Tharon Morrison, Vice-President&lt;/li&gt;
+				&lt;li&gt;Jason Koeller, Treasurer&lt;/li&gt;
+				&lt;li&gt;Victoria Levy, Secretary&lt;/li&gt;
+				&lt;li&gt;Courtney Campion, Outreach Coordinator&lt;/li&gt;
+				&lt;li&gt;Carlos Villarroel Diaz, Freshman Representative&lt;/li&gt;
+				&lt;li&gt;Jack McDaniel, Freshman Consultant&lt;/li&gt;
+			&lt;/ul&gt;
+			</info>
+		</item>
+		<item name="Open House Poster Contest Winners!" category="Special Announcements" deadline="Never" type="urgent">
 			<info>
 				Congratulations to the Open House Poster Contest Winners! They are:
 				&lt;ol&gt;
@@ -23,7 +36,7 @@
 				&lt;/ol&gt;
 			</info>
 		</item>
-		<item name="Texas Physics Polo Ordering" category="Special Announcements" deadline="Never" type="updated">
+		<item name="Texas Physics Polo Ordering" category="Special Announcements" deadline="Never">
 			<info>
 				Pre-orders start now for Texas Physics Polos (white embroidered logo on 
 				dark navy polo), brought to you by Sigma Pi Sigma. Preorders will be $25,
@@ -38,11 +51,15 @@
 			<location>CPE 2.208</location>
 			<date>November 21, 6pm</date>
 			<info>
-				</info>
+				This week is going to be a very special meeting! We're going to be joined
+				by some of our faculty members who will be there to answer questions
+				about life in college, hobbies outside science, the path to
+				professorship and more! Dr. Paban and Dr. Onyisi will 
+			</info>
 		</item>
 		<!--CNS Activities -->
 		<!-- SPS ACTIVITIES -->
-		<item name="Physics Open House Pics!" category="SPS Activities" type="new">
+		<item name="Physics Open House Pics!" category="SPS Activities" type="urgent">
 			<info>Open House was a huge success! Using watermelons, we calculated little
 			g to be 10.1+/-1.3 m/s^2! Check out pictures &lt;a target="_blank"
 			href="http://imgur.com/a/MNVAC"&gt;here&lt;/a&gt;!</info>

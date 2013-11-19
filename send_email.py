@@ -20,16 +20,16 @@ GMAIL_SERVER = 'smtp.gmail.com:587'
 def send_email(html_email, to, cc, bcc, senders_email, subject):
   # make sure we have input for everything
   if len(html_email) == 0:
-    html_email = open(input('HTML file containing message: ')).read()
+    html_email = open(raw_input('HTML file containing message: ')).read()
   if len(to) == 0:
-    to = input('To (separated by spaces): ')
+    to = raw_input('To (separated by spaces): ')
   if len(cc) == 0:
-    cc = input('Cc (separated by spaces): ')
+    cc = raw_input('Cc (separated by spaces): ')
   if len(bcc) == 0:
-    bcc = input('Bcc (separated by spaces): ')
+    bcc = raw_input('Bcc (separated by spaces): ')
 
   if len(senders_email) == 0:
-    senders_email = input('Sender\'s Gmail Address: ')
+    senders_email = raw_input('Sender\'s Gmail Address: ')
   password = getpass.getpass()
 
   # sanitize input
@@ -45,14 +45,14 @@ def send_email(html_email, to, cc, bcc, senders_email, subject):
   senders_email = senders_email.strip()
 
   if len(subject) == 0:
-    subject = input('Subject: ')
+    subject = raw_input('Subject: ')
   msg = MIMEMultipart('alternative')
   msg['Subject'] = subject
   msg['From'] = senders_email
   msg['To'] = ", ".join(re.split('\s+',to))
   msg['Cc'] = ", ".join(re.split('\s+',cc))
   
-  if input('info correct? y/n ') in ['y', 'Y']:
+  if raw_input('info correct? y/n ') in ['y', 'Y']:
     part = MIMEText(html_email, 'html')
     msg.attach(part)
 
