@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent", "updated" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="December 5, 2013">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="Texas Physics Polo Ordering" category="Special Announcements" deadline="Never" type="urgent">
+			<info>
+				Order by 12/9 for Texas Physics Polos (white embroidered logo on 
+				dark navy polo), brought to you by Sigma Pi Sigma! Preorders will be $25,
+				and any extras will be sold for $30 when they arrive (add $1 for online
+				orders and $4 for shipping). You can buy them in person from John Loftin
+				or another SPS officer (go to RLM 5.222 - one of us is likely to be there),
+				or online &lt;a target="_blank" href="http://www.ph.utexas.edu/~sps/pages/tshirts.html#polo"&gt;here&lt;/a&gt;!
+			</info>
+		</item>
+		<item name="T-shirts Are In!" category="Special Announcements" deadline="Never" type="new">
+			<info>
+				Shirts are here! Come pick up your order at the meeting this week (see below), during dead days from 10am-1pm in the RLM lobby,
+				or email us if those times don't work (Sunday Night Study Session works too). We have a few extras of most designs so if you
+				waited, buy quickly before they disappear!
+			</info>
+		</item>
+		<!-- WEEKLY MEETINGS -->
+		<item name="Looking Forward / T-shirt Distribution" category="Weekly Meetings" type="new" deadline="December 4th">
+			<location>CPE 2.208</location>
+			<date>December 5, 6pm</date>
+			<info>
+				Today, we'll distribute t-shirts and take a step back to think about the future of SPS! Join us for a brainstorming session /
+                airing of grievances as we enjoy some pizza before finals!
+			</info>
+		</item>
+		<!--CNS Activities -->
+		<!-- SPS ACTIVITIES -->
+		<item name="Mentoring Group" category="SPS Activities" deadline="Never" type="updated">
+			<location>RLM 5.222</location>
+			<date>Saturdays, 11am</date>
+			<info>&lt;b&gt;No meeting this week!&lt;/b&gt; Mentees! Please bring a scientific article about something you are 
+				interested in and be able to explain the article for this week's meeting.
+				If you are interested in being mentored please sign up and get your
+				friends to sign up too!
+			You can sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1QKbh6-eG48vqghmArxMmzSZAg1eUuy38IUIVaCRx1TE/viewform"&gt;here&lt;/a&gt; to be a mentee. Email
+			SPS Webmaster, Tharon Morrison at &lt;a href="mailto:t_morrison@utexas.edu"&gt;t_morrison@utexas.edu&lt;/a&gt; for more information.</info>
+		</item>
+		<item name="Sunday Night Study Session" category="SPS Activities" deadline="Never">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For those who haven't been, every week we invite any and all physics majors and people in physics or math classes to come by to work on homework. With many upper-division students in attendance (and some LAs for classes), when you run into problems, you won't be stuck for long. We also provide cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt; energized. Some come by to help or be helped! If you're interested in tutoring, making known that you're available during the night (name on a chalkboard) is a great way to earn service hours for Sigma Pi Sigma.</info>
+		</item>
+	
+		<!-- Sigma Pi Sigma -->
+		<item name="Service Hours" category="Sigma Pi Sigma" deadline="Never" type="updated">
+			<info>&lt;b&gt;Applying for membership? Be sure to post hours on HornsLink!&lt;/b&gt; Interested in joining Sigma Pi Sigma, the physics honors society?
+				The requirements are listed on &lt;a target="_blank"
+				href="http://www.ph.utexas.edu/~sps/pages/EPE.html"&gt;our website&lt;/a&gt;. For the service
+				hour component, we will be managing that through the new HornsLink system (see below for the link).
+				Join the SPS group and when you volunteer (like tutoring for SNSS above), submit a request for
+				us to verify your service hours. That way,
+				we have a nice record of volunteers and volunteer time (and it will show up on the resume HornsLink
+				can create for you)! You input the time you worked, we sign off, then you don't have to think about it again!</info>
+		</item>
+		
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
