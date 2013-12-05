@@ -38,6 +38,16 @@
 		</item>
 		<!--CNS Activities -->
 		<!-- SPS ACTIVITIES -->
+		<item name="Prospective Students Day Housing" category="SPS Activities" type="new">
+			<info>
+				Prospective Students Day is next semester and SPS is partnering with ASA and uWiP! The first thing
+				we need is space for students March 27-28 ON CAMPUS. We want to have a two-day event, but without
+				your help to have space for students to sleep overnight, we'll not be able to support that and
+				instead revert to a much abbreviated schedule. If you're on campus, please sign up to help
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/14D4SRERMfWi5RwQc2pV5upxhxTqa5vScf5EJCdOuQj0/viewform"
+				&gt;here&lt;/a&gt;! Thanks!
+			</info>
+		</item>
 		<item name="Mentoring Group" category="SPS Activities" deadline="Never" type="updated">
 			<location>RLM 5.222</location>
 			<date>Saturdays, 11am</date>
