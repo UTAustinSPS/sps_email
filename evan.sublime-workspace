@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "xml/2013-11-8.xml",
-			"settings":
-			{
-				"buffer_size": 9145,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Send Email",
 	"command_palette":
@@ -56,6 +48,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Evan/GitProjects/sps_email/xml/2013-11-8.xml",
 		"/C/Users/Evan/Desktop/send_email.py",
 		"/home/evanott/Dropbox/littleg.txt",
 		"/home/evanott/GitProjects/runestone/evan.sublime-project",
@@ -110,36 +103,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "xml/2013-11-8.xml",
-					"settings":
-					{
-						"buffer_size": 9145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2444,
-								2444
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
