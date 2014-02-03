@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent", "updated" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="February 2, 2014">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<item name="February 2, 2014" category="Message from the President">
+			<info>
+				Very exciting times for SPS! We have a guest speaker, Jill Tietjen, coming
+				to speak in a couple weeks, a potluck coming up on 2/15, and a new undergraduate
+				lecture series starting Tuesday! I encourage you to read about all of this (and more!) below. During our meeting tomorrow, we'll talk about the big physics news
+				of the week: Magnetic Monopoles (well, synthetic ones anyway).
+				&lt;br&gt;&lt;br&gt;~Evan Ott, SPS President
+			</info>
+		</item>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="Guest Speaker Jill Tietjen" category="Special Announcements" type="new">
+			<date>February 17, 6:30pm</date>
+			<location>WEL 1.308</location>
+			<info>
+				Former national president of the Society of Women in Engineers, Jill Tietjen,
+				will be on campus in two weeks to talk about "Discovering Scientific, Technical,
+				Engineering, and Mathematical Women: The accomplishments of pioneering women
+				engineers, scientists, and inventors over the course of U.S. History." uWip,
+				GirlAdvocates!, and SPS are partnering to sponsor this event in the place of the
+				usual SPS meeting. For more, see the
+				&lt;a target="_blank" href="https://www.facebook.com/events/573730322712213/"&gt;
+				Facebook event&lt;/a&gt;.
+				&lt;br&gt;&lt;br&gt;
+				&lt;a target="_blank" href="https://www.facebook.com/events/573730322712213/"&gt; &lt;img width="450px" align="center" src="https://scontent-a-atl.xx.fbcdn.net/hphotos-prn1/t1/1510811_659474367442368_382733384_n.jpg"&gt;&lt;/a&gt;
+			</info>
+		</item>
+		<!-- WEEKLY MEETINGS -->
+		<item name="Small Learning Communities" category="Weekly Meetings" type="new">
+			<date>February 3, 6:30pm</date>
+			<location>RLM 7.104</location>
+			<info>
+				This week, we'll have senior physics major Amanda Turbyfill leading a discussion
+				on small learning communities. Amanda is part of the College Tuition and Budget
+				Advisory Committee for CNS, which is working on how to better address issues that affect
+				our community such as: having small learning groups, increasing representation
+				of minorities and women in science, and finding better ways to integrate technology
+				in the classroom. The CNS Town Hall on Wednesday (see below) is part of this
+				same initiative, and there is more info on their efforts
+				&lt;a target="_blank" href="https://www.facebook.com/events/644236828950937/"
+				&gt;here&lt;/a&gt;. See you there!
+			</info>
+		</item>
+		<item name="Undergrad Research Presentation: Luke Pharr" category="Weekly Meetings" type="new">
+			<date>February 10, 6:30pm</date>
+			<location>RLM 7.104</location>
+			<info>
+				Luke Pharr is a third-year physics and Plan II major. He grew up in Austin
+				where he fostered a love for science. Luke currently researches
+				buckling of thin polyethylene sheets in the Center for Nonlinear Dynamics
+				here at UT Physics.
+			</info>
+		</item>
+		<!--CNS Activities -->
+		<item name="Town Hall: The Freshman Experience" category="CNS Activities" type="new">
+			<date>February 5, 5pm</date>
+			<location>WCH 1.120</location>
+			<info>
+				CNS has many resources for freshmen, but it wants to hear about how effective
+				they are - anything from FIGs to the FRI, from Residence Hall Study Groups
+				to academic advisors. Come for some free pizza (and prizes!) and come help
+				shape new (and old) initiatives to make our college the best it can be (and
+				make sure us physicists are represented!)! More info is already in your inbox
+				from Dr. Kopp (subject: "Week of 2/3/14 -- Remember freshman year? We want to
+				talk to you!").
+				&lt;br&gt;&lt;br&gt;
+				&lt;a target="_blank" href="https://www.facebook.com/events/644236828950937/"&gt; &lt;img width="450px" align="center" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/t1/1546024_10203011706199750_1080101138_n.jpg"&gt;&lt;/a&gt;
+			</info>
+		</item>
+
+		<!-- SPS Activities -->
+		<item name="Undergraduate Lecture Series" category="SPS Activities" type="updated">
+			<date>Tuesdays, 5pm</date>
+			<location>CLA 0.128</location>
+			<info>Senior Eric Horsley has put together a student lecture series where
+			 each week an undergraduate will present a physics topic he or she
+			 finds interesting. Many talks are already scheduled, with the first
+			 being Eric's &lt;b&gt;this&lt;/b&gt; Tuesday (2/4): "In Search of Phase Space in Quantum Mechanics." Come
+			 learn some physics! For more information, contact Eric at
+			 &lt;a href="mailto:ehorsley171619@gmail.com"&gt;ehorsley171619@gmail.com&lt;/a&gt;.
+			</info>
+		</item>
+		<item name="Cooking with Physicists" category="SPS Activities" type="updated">
+			<date>February 15, 5pm</date>
+			<location>Evan and Tharon's Apartment</location>
+			<info>
+				Our first social event of the semester will be a potluck/cookout of sorts
+				at the apartment of the president and vice-president! We'll have cooking
+				appliances set up to have everyone bring some ingredients to make something
+				delicious! Help coordinate ingredients on the Facebook event
+				&lt;a target="_blank" href="https://www.facebook.com/events/216720731850037/"
+				&gt;here&lt;/a&gt;! Or you can tell us what you'd like to bring
+				&lt;a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AkIgZqZWzKKYdDFSNFVTSFM5RkRIU3RPaUQ3RFAtY3c"&gt;here&lt;/a&gt;
+			</info>
+		</item>
+		<item name="Prospective Students Day" category="SPS Activities" type="updated">
+			<info>&lt;b&gt;We still need space for 30+ students!&lt;/b&gt; Prospective Students Day is coming up March 21-22 (new date!) and we need dorm
+				floors for prospective students to sleep on. If you are willing to
+				let someone sleep on your floor please fill out this
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/14D4SRERMfWi5RwQc2pV5upxhxTqa5vScf5EJCdOuQj0/viewform"&gt;form&lt;/a&gt;. 
+			</info>
+		</item>
+		<item name="Sunday Night Study Session" category="SPS Activities">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For
+				those who haven't been, every week we invite any and all physics majors
+				and people in physics or math classes to come by to work on homework.
+			With many upper-division students in attendance (and some LAs for classes),
+			when you run into problems, you won't be stuck for long. We also provide
+			cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt;
+			energized. Some come by to help or be helped! If you're interested in
+			tutoring, making known that you're available during the night
+			(name on a chalkboard) is a great way to earn service hours for
+			Sigma Pi Sigma.</info>
+		</item>
+		<item name="Physics Idol (Undergrad Research Competition)" category="SPS Activities">
+			<info>
+				Don't forget to reserve your slot in the new Undergraduate Research
+				Presentation Competition during meetings this semester! Winners will
+				be judged by a combination of
+				a panel and popular vote, on factors covering aspects of both the
+				research itself and its presentation. Prizes will include a custom
+				t-shirt and a selection of prizes, not to mention bragging rights and a nice
+				bullet-point on the resume! Sign up
+				&lt;a target="_blank" href="https://docs.google.com/a/utexas.edu/forms/d/1mtD9AHASiby4K6akdjiJTJSCxl9NJMY3hGkCyrk1RKM/viewform"&gt;
+				here&lt;/a&gt;.
+			</info>
+		</item>
+		<!-- Mentoring -->	
+		<item name=" Machine Shop, Electronics" category="Mentoring" type="updated">
+			<info>Mentoring is taking on a new spin this semester. There are going to be
+				streams that encompass our successful workshops and add some new ones.
+				We are going to have the Machine Shop Workshop to build skills in making
+				experimental apparatuses, and an Electronics Workshop to build
+				skills in soldering and circuit design.
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/1r0Qd3IriVj5Mb2dTg67TnY4BqqEfeTBWFBdhJlvovxg/viewform"&gt;Sign up
+				&lt;/a&gt; if you are interested in participating. If you would like to
+				help run one of the streams (especially the journal club) you can sign-up
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/1JnesePhZ0jWzcvyeSDXGlpam5DNkSuUDvjtGxceN_jg/viewform"&gt;here
+				&lt;/a&gt;.
+			</info>
+		</item>
+		<!-- Physics Orgs -->	
+		<item name="Undergraduate Women in Physics" category="Physics Orgs">
+			<info>
+				UT Undergraduate Women in Physics is founded on the principle of
+				promoting equality in the sciences, especially physics, both at UT and
+				in the general community. We welcome all people interested in furthering
+				that goal! Join their
+				&lt;a target="_blank" href="https://utlists.utexas.edu/sympa/info/uwip"&gt;UTList&lt;/a&gt;
+				or &lt;a target="_blank" href="https://www.facebook.com/groups/200619160136575/"&gt;Facebook group&lt;/a&gt;.
+			</info>
+		</item>
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>

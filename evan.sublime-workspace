@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "xml/2014-02-02.xml",
+			"settings":
+			{
+				"buffer_size": 10090,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Send Email",
 	"command_palette":
@@ -48,6 +56,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Evan/GitProjects/sps_email/xml/2014-01-25.xml",
+		"/C/Users/Evan/GitProjects/sps_email/xml/2013-09-15.xml",
 		"/C/Users/Evan/GitProjects/sps_email/xml/2013-11-8.xml",
 		"/C/Users/Evan/Desktop/send_email.py",
 		"/home/evanott/Dropbox/littleg.txt",
@@ -85,6 +95,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
 			"ls"
 		],
 		"highlight": true,
@@ -103,8 +114,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "xml/2014-02-02.xml",
+					"settings":
+					{
+						"buffer_size": 10090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1163,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
