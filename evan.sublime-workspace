@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "xml/2013-11-8.xml",
+			"file": "xml/2014-02-02.xml",
 			"settings":
 			{
-				"buffer_size": 9145,
+				"buffer_size": 10090,
 				"line_ending": "Windows"
 			}
 		}
@@ -56,6 +56,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Evan/GitProjects/sps_email/xml/2014-01-25.xml",
+		"/C/Users/Evan/GitProjects/sps_email/xml/2013-09-15.xml",
+		"/C/Users/Evan/GitProjects/sps_email/xml/2013-11-8.xml",
 		"/C/Users/Evan/Desktop/send_email.py",
 		"/home/evanott/Dropbox/littleg.txt",
 		"/home/evanott/GitProjects/runestone/evan.sublime-project",
@@ -92,6 +95,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
 			"ls"
 		],
 		"highlight": true,
@@ -115,18 +119,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "xml/2013-11-8.xml",
+					"file": "xml/2014-02-02.xml",
 					"settings":
 					{
-						"buffer_size": 9145,
+						"buffer_size": 10090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2444,
-								2444
+								1163,
+								1163
 							]
 						],
 						"settings":

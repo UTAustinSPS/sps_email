@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent", "updated" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="January 25, 2014">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="Message from the President" category="Special Announcements" type="new">
+			<info>
+				Welcome back! We missed you! Hope your semester has gotten off to a great start,
+				but isn't there something missing in your life? You feel it too? Oh, that's
+				right! It's SPS! We'll, we're back and ready to go! Our first meeting is Monday
+				and we already have several events lined up! I encourage you to take a look
+				at the events below (or the summary in the sidebar) to find some things you'd
+				like to participate in. If you have questions, feel free to reach out to us!
+				Hope to see you on Monday (and for some of you, see you in class on Thursday)!
+				&lt;br&gt;~Evan Ott, SPS President
+			</info>
+		</item>
+		<item name="Prospective Students Day" category="Special Announcements" type="new">
+			<info>Prospective Students Day is coming up March 21-22 (new date!) and we need dorm
+				floors for prospective students to sleep on. If you are willing to
+				let someone sleep on your floor please fill out this
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/14D4SRERMfWi5RwQc2pV5upxhxTqa5vScf5EJCdOuQj0/viewform"&gt;form&lt;/a&gt;.
+			</info>
+		</item>
+		<item name="Undergraduate Lecture Series" category="Special Announcements" type="new">
+			<date>Tuesdays, 5pm</date>
+			<location>TBA</location>
+			<info>Senior Eric Horsley has put together a student lecture series where
+			 each week an undergraduate will present a physics topic he or she
+			 finds interesting. Many talks are already scheduled, with the first
+			 being Eric's this Tuesday: "In Search of Phase Space in Quantum Mechanics." Come
+			 learn some physics! For more information, contact Eric at
+			 &lt;a href="mailto:ehorsley171619@gmail.com"&gt;ehorsley171619@gmail.com&lt;/a&gt;.
+			</info>
+		</item>
+		<!-- WEEKLY MEETINGS -->
+		<item name="First Meeting" category="Weekly Meetings" type="new">
+			<date>January 27, 6:30pm</date>
+			<location>RLM 7.104</location>
+			<info>Come learn about our plans for the semester, enjoy some 
+				pizza and some liquid nitrogen ice cream!</info>
+		</item>
+		<!--CNS Activities -->
+		<!-- Mentoring -->	
+		<item name="Journal Club, Machine Shop, Electronics" category="Mentoring" type="new">
+			<info>Mentoring is taking on a new spin this semester. There are going to be
+				streams that encompass our successful workshops and add some new ones.
+				We are going to have a Journal Club to introduce each other to different
+				physics topics, the Machine Shop Workshop to build skills in making
+				experimental apparatuses, and an Electronics Workshop to build
+				skills in soldering and circuit design.
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/1r0Qd3IriVj5Mb2dTg67TnY4BqqEfeTBWFBdhJlvovxg/viewform"&gt;Sign up
+				&lt;/a&gt; if you are interested in participating. If you would like to
+				help run one of the streams (especially the journal club) you can sign-up
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/1JnesePhZ0jWzcvyeSDXGlpam5DNkSuUDvjtGxceN_jg/viewform"&gt;here
+				&lt;/a&gt;.
+			</info>
+		</item>
+
+		<!-- SPS Activities -->
+		<item name="Sunday Night Study Session" category="SPS Activities">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For
+				those who haven't been, every week we invite any and all physics majors
+				and people in physics or math classes to come by to work on homework.
+			With many upper-division students in attendance (and some LAs for classes),
+			when you run into problems, you won't be stuck for long. We also provide
+			cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt;
+			energized. Some come by to help or be helped! If you're interested in
+			tutoring, making known that you're available during the night
+			(name on a chalkboard) is a great way to earn service hours for
+			Sigma Pi Sigma.</info>
+		</item>
+		<item name="Physics Idol (Undergrad Research Competition)" category="SPS Activities" type="new">
+			<info>
+				Don't forget to reserve your slot in the new Undergraduate Research
+				Presentation Competition during meetings this semester! Winners will
+				be judged by a combination of
+				a panel and popular vote, on factors covering aspects of both the
+				research itself and its presentation. Prizes will include a custom
+				t-shirt and a selection of prizes, not to mention bragging rights and a nice
+				bullet-point on the resume! Sign up
+				&lt;a target="_blank" href="https://docs.google.com/a/utexas.edu/forms/d/1mtD9AHASiby4K6akdjiJTJSCxl9NJMY3hGkCyrk1RKM/viewform"&gt;
+				here&lt;/a&gt;.
+			</info>
+		</item>
+		<item name="Cooking with Physicists" category="SPS Activities" type="new">
+			<date>February 15, 5pm</date>
+			<location>Evan and Tharon's Apartment</location>
+			<info>
+				Our first social event of the semester will be a potluck/cookout of sorts
+				at the apartment of the president and vice-president! We'll have cooking
+				appliances set up to have everyone bring some ingredients to make something
+				delicious! Help coordinate ingredients on the Facebook event
+				&lt;a target="_blank" href="https://www.facebook.com/events/216720731850037/"
+				&gt;here&lt;/a&gt;! More info to come!
+			</info>
+		</item>
+		<item name="T-shirt Distribution" category="SPS Activities" type="new">
+			<location>RLM Lobby</location>
+			<date>This week!</date>
+			<info>We are still distributing t-shirts and polos from last semester.
+				We could really use your help to staff the booth on the fourth floor.
+				Please sign-up &lt;a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0AkIgZqZWzKKYdGNjMU9UTXZoSEdFWHR2RmFaanhGZGc"&gt;here
+				&lt;/a&gt; when you are available.
+			</info>
+		</item>
+		
+		<item name="Valentines' Day Cards" category="SPS Activities" type="new">
+			<info>We're bringing back physics Valentines' cards this semester! Look
+				for us to pick up a special gift for that special someone or maybe ensnare
+				that secret crush of yours with the likeness of Tesla or Feynman and some
+				physics-related jokes.
+			</info>
+		</item>
+		<!-- Physics Orgs -->	
+		<item name="Undergraduate Women in Physics" category="Physics Orgs" type="new">
+			<info>
+				UT Undergraduate Women in Physics is founded on the principle of
+				promoting equality in the sciences, especially physics, both at UT and
+				in the general community. We welcome all people interested in furthering
+				that goal! Join their
+				&lt;a target="_blank" href="https://utlists.utexas.edu/sympa/info/uwip"&gt;UTList&lt;/a&gt;
+				or &lt;a target="_blank" href="https://www.facebook.com/groups/432796033504388/"&gt;Facebook group&lt;/a&gt;.
+
+			</info>
+		</item>
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
