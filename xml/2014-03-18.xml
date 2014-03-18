@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent", "updated" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="March 18, 2014">
+	<teaser>Official email from the UT Austin Chapter of the Society of Physics Students</teaser>
+	<itemList>
+		<item name="March 18" category="Message from the President">
+			<info>
+				Welcome back! I hope everyone had a restful spring break! Yesterday, the BICEP2 experiment
+				announced the discovery of gravitational waves in the cosmic microwave background that
+				prove inflation in the early universe - an
+				exciting discovery for modern cosmology (more detailed description 
+				&lt;a target="_blank" href="http://www.space.com/25078-universe-inflation-gravitational-waves-discovery.html"&gt;here&lt;/a&gt;)! We continue to gain better understanding of how
+				our magnificent universe works, but that quest is never over! So get involved in a lab, find out
+				something no one knows, and present it to SPS! (Yes, that is the segue I'm using - no one reads this
+				anyway) Check out the "Physics Idol" section for more info on how to do that.
+				&lt;br&gt;&lt;br&gt;~Evan Ott, SPS President
+				&lt;br&gt;&lt;br&gt;
+				&lt;a target="_blank" href="http://www.space.com/25078-universe-inflation-gravitational-waves-discovery.html"&gt;&lt;img src="http://i.space.com/images/i/000/037/671/original/b-mode-pattern-bicep2-telescope.jpg"
+				width="400px"&gt;&lt;/a&gt;
+			</info>
+		</item>
+		<!-- SPECIAL ANNOUNCEMENTS -->
+		<item name="Prospective Students Days" category="Special Announcements" type="new">
+			<info>&lt;b&gt;It moved again!&lt;/b&gt; Prospective Students Days is now April 3-4 (Thursday-Friday).
+				We need volunteers throughout the event (sign up &lt;a target="_blank" href="https://docs.google.com/forms/d/1mfQpoDlxgziVpQHnnmurpUXXiWLYRPPk1k2Y_Sel6DI/viewform"&gt;here&lt;/a&gt;). If you can help
+				provide housing, please sign up
+				&lt;a target="_blank" href="https://docs.google.com/forms/d/14D4SRERMfWi5RwQc2pV5upxhxTqa5vScf5EJCdOuQj0/viewform"&gt;here&lt;/a&gt;. If you signed up to help with housing, but can no longer do so, please let us know immediately.
+			</info>
+		</item>
+		<!-- WEEKLY MEETINGS -->
+		
+		<!--CNS Activities -->
+
+		<!-- Mentoring -->	
+		<item name="Machine Shop, Electronics" category="Mentoring">
+			<info>&lt;b&gt;Contact the officers if you're interested.&lt;/b&gt; Both have
+				already started but if you would like to join in on the learning it may not be too late.
+				Please contact us and we will see if you can be accomodated.
+			</info>
+		</item>
+
+		<!-- SPS Activities -->
+		<item name="Undergraduate Lecture Series: John Loftin" category="SPS Activities" type="urgent">
+			<date>TODAY Tuesday, Mar. 4, 5pm</date>
+			<location>CLA 0.128</location>
+			<info>TODAY, John Loftin will present a talk on "A Primer on Quantum Field Theory: 
+				the how and why of using field theory to do quantum mechanics in a relativistic setting."
+				To get the most out of the talk, audience members should have taken Quantum 1,
+				Electrodynamics, and Classical Dynamics.
+			</info>
+		</item>
+
+		<item name="Cheap Lunch" category="SPS Activities">
+			<location>Wednesdays, RLM Ground Floor</location>
+			<info>Come grab a cheap lunch from SPS on Wednesdays! We have pizza, chips, and a 
+				drink all for just $3!</info>
+		</item>
+
+		<item name="Sunday Night Study Session" category="SPS Activities">
+			<date>Sundays, 6pm-???</date>
+			<location>RLM 7.116</location>
+			<info>It's back! Our Sunday Night Study Session (SNSS) is in full swing! For
+				those who haven't been, every week we invite any and all physics majors
+				and people in physics or math classes to come by to work on homework.
+			With many upper-division students in attendance (and some LAs for classes),
+			when you run into problems, you won't be stuck for long. We also provide
+			cookies, coffee, tea, etc., to help keep you &lt;s&gt;caffeinated&lt;/s&gt;
+			energized. Some come by to help or be helped! If you're interested in
+			tutoring, making known that you're available during the night
+			(name on a chalkboard) is a great way to earn service hours for
+			Sigma Pi Sigma.</info>
+		</item>
+		<item name="Physics Idol (Undergrad Research Competition)" category="SPS Activities">
+			<info>
+				Don't forget to reserve your slot in the new Undergraduate Research
+				Presentation Competition during meetings this semester! Winners will
+				be judged by a combination of
+				a panel and popular vote, on factors covering aspects of both the
+				research itself and its presentation. Prizes will include a custom
+				t-shirt and a selection of prizes, not to mention bragging rights and a nice
+				bullet-point on the resume! Sign up
+				&lt;a target="_blank" href="https://docs.google.com/a/utexas.edu/forms/d/1mtD9AHASiby4K6akdjiJTJSCxl9NJMY3hGkCyrk1RKM/viewform"&gt;
+				here&lt;/a&gt;.
+			</info>
+		</item>
+		<!-- Physics Orgs -->	
+		<item name="Undergraduate Women in Physics" category="Physics Orgs">
+			<info>
+				UT Undergraduate Women in Physics is founded on the principle of
+				promoting equality in the sciences, especially physics, both at UT and
+				in the general community. We welcome all people interested in furthering
+				that goal! Join their
+				&lt;a target="_blank" href="https://utlists.utexas.edu/sympa/info/uwip"&gt;UTList&lt;/a&gt;
+				or &lt;a target="_blank" href="https://www.facebook.com/groups/200619160136575/"&gt;Facebook group&lt;/a&gt;.
+			</info>
+		</item>
+		<!-- CAREERS -->
+		<!-- CONTACT US -->
+		<item name="Comments or Questions" category="Contact Us" deadline="Never">
+			<info>Have something to complain about? Or a question? Maybe an idea for a meeting or event? Or suggestions about how we use technology? Contact us at &lt;a href="mailto:spsofficers@gmail.com"&gt;spsofficers@gmail.com&lt;/a&gt; or see the links below! As always, Don't Forget To Be Awesome!</info>
+		</item>
+	</itemList>
+</weeklyEmail>
